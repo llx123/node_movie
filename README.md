@@ -4,6 +4,6 @@
 
 此程序基于[慕课网](http://www.imooc.com/learn/75)Scott老师的Node.js+MongoDB建站攻略，非常适合初学者，做了一些小小更改，解决了mongodb版本废弃问题，&lt;embed&gt;替换成html5的&lt;video&gt;适合本地调试。
 * 浏览器查看效果
-* 8.1  `http://localhost:3000`查看首页效果。
-* 8.2  `http://localhost:3000/admin/list`列表页
-* 8.3  `http://localhost:3000/admin/movie`后台录入页
+* 1  `http://localhost:3000`查看首页效果。
+* 2  `http://localhost:3000/admin/list`列表页
+* 3  `http://localhost:3000/admin/movie`后台录入页
