@@ -9,6 +9,7 @@ var path = require('path');
 // 引入path模块的作用：因为页面样式的路径放在了bower_components，告诉express，请求页面里所过来的请求中，如果有请求样式或脚本，都让他们去bower_components中去查找
 
 var mongoose = require('mongoose'); // 加载mongoose模块
+mongoose.Promise = global.Promise; //解决报错
 mongoose.connect('mongodb://localhost:27017/imovie'); // 连接mongodb本地数据库imovie
 console.log('MongoDB connection success!');
 /*  mongoose 简要知识点补充
